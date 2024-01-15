@@ -10,7 +10,7 @@ public class MemberController {
 
     /*
         컨트롤러와 서비스 연결
-        의존관계를 주입
+        의존관계를 주입 / 생성자 주입
      */
     @Autowired
     public MemberController(MemberService memberService) {
